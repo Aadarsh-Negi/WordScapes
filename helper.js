@@ -45,4 +45,10 @@ function fun(text) {
     return arr;
 }
 
-module.exports = {fun,obj :new Matrix()};
+var seperate = (words)=>{
+    var arr = words.split(" ");
+
+    return arr;
+}
+
+module.exports = {fun,obj :new Matrix(),seperate};
